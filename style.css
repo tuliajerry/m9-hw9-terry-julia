@@ -148,15 +148,13 @@ footer {
   section.hero .call-to-action {
     font-size: 1.5rem;
   }
-  main> article> img {
-    display: block;
-    margin: 0 auto 20px; 
-  }
-  
-  main article p {
-    clear: both; 
-  }
   main > section, main > article {
     margin-bottom: 15px; 
+  }
+   main > article img {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
   }
 }
